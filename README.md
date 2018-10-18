@@ -1,14 +1,14 @@
 # The Demographics of Close Congressional Races
 
-This repository contains the data and analysis for the BuzzFeed News article, "[Black Voters Are Underrepresented In This Year’s Biggest House Races](TKTKTK)," published October 18, 2018.
+This repository contains the data and analyses for the BuzzFeed News article, "[Black Voters Are Underrepresented In This Year’s Biggest House Races](TKTKTK)," published October 18, 2018.
 
 ## Data
 
-The data for this analysis came from two sources:
+The data for this analyses came from two sources:
 
 - __The U.S. Census__. The [`data/census`](data/census) contains three files: `table04b.xls` from the Census's [Voting and Registration in the Election of November 2016](https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-580.html) and two files (`CD.csv` and `State.csv`) from the [Citizen Voting Age Population by Race and Ethnicity](https://www.census.gov/programs-surveys/decennial-census/about/voting-rights/cvap.html) (CVAP) estimates. The CVAP estimates are based on the American Community Survey from 2012-2016, so they have a little bit of a lag.
 
-- __FiveThirtyEight__. The analysis uses *FiveThirtyEight's* [House](https://projects.fivethirtyeight.com/2018-midterm-election-forecast/house/) and [Senate](https://projects.fivethirtyeight.com/2018-midterm-election-forecast/senate/) forecasts for the 2018 midterm election. BuzzFeed News downloaded the data on October 18, 2018 at 11:30 am; you can find it in the [`data/fivethirtyeight`](data/fivethirtyeight) directory. The code used to collect the data can be found in these notebooks for [the Senate](notebooks/scrape-senate-voter-power-index.ipynb) and [the House](notebooks/scrape-house-race-details.ipynb).
+- __FiveThirtyEight__. The analyses uses *FiveThirtyEight's* [House](https://projects.fivethirtyeight.com/2018-midterm-election-forecast/house/) and [Senate](https://projects.fivethirtyeight.com/2018-midterm-election-forecast/senate/) forecasts for the 2018 midterm election. BuzzFeed News downloaded the data on October 18, 2018 at 11:30 am; you can find it in the [`data/fivethirtyeight`](data/fivethirtyeight) directory. The code used to collect the data can be found in these notebooks for [the Senate](notebooks/scrape-senate-voter-power-index.ipynb) and [the House](notebooks/scrape-house-race-details.ipynb).
 
 ## Analysis
 
